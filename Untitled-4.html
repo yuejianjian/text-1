@@ -1,0 +1,494 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style type="text/css">
+body{
+	margin:0;
+	padding:0;
+	}
+/*简历导航条*/
+#nav-bar{
+	position:fixed;
+	width: 100%;
+    height: 70px;
+    background-color: #2c3e50;
+    color: #f5f5f5;
+	margin:0 auto;
+	z-index:1;
+	}
+.container{
+	float:left;
+	margin:auto 100px;
+	line-height:70px;
+	font-size:30px;
+	}
+.navigation{
+	list-style-type:none;
+	height:auto;
+	
+	}
+.navigation li{
+	float:right;
+	margin:auto 50px;
+	
+	font-size:16px;
+	height:auto;
+	
+	}
+.navigation li a{
+	color:#FFF;
+	}
+/*简历封面*/
+
+img{
+	width:100%;
+	}
+.myIntro{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	}
+.name-1{
+	font-family:cursive,'Lato', sans-serif;
+	font-size:70px;
+	font-weight:400;
+	margin:50px 0 30px;
+	}
+.name-2{
+	font-size:30px;
+	letter-spacing:3px;
+	margin:40px 0;
+	}
+.name-3{
+	
+	
+	line-height:48px;
+	font-size:16px;
+	
+	border-radius:5px;
+	cursor:pointer;
+	margin:5px auto;
+	text-align:center;
+	}
+
+.about-me{
+	display:inline-block;
+	background-color:#2c3e50;
+	color:#fff;
+	width:150px;
+	height:50px;
+	border:1px solid #999;
+	
+	}
+.myworks{
+	display:inline-block;
+	background-color:#FFF;
+	color:#96a3b2;
+	width:150px;
+	height:50px;
+	border:1px solid #999;
+	margin:20px;
+	}
+/*自我介绍*/
+.job-intension{
+	margin-top:200px;
+	
+	}
+.myself-top hr{
+	height: 4px;
+    width:100px;
+    text-align:center;
+    position: relative;
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+	}
+.myself-top .myself{
+	text-align:center;
+	font-size:30px;
+	line-height:30px;
+	color:#2c3e50;
+	
+	letter-spacing:2px;
+	
+	}
+.myphoto{
+	text-align:center;
+	max-width: 400px;
+    width: 40%;
+    border-radius:50%;
+	}
+.information{
+	text-indent:2em;
+	max-width:850px;
+	margin:20px auto;
+	font-size:14px;
+	font-family:"微软雅黑";
+	}
+/*求职意向*/
+.job-intension{
+	position:relative;
+	
+	}
+.job-photo img{
+	width:100%;		
+	}
+.job-1{
+	position:absolute;
+	width:100%;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);	
+	}
+.job-1 hr{
+	height: 4px;
+    width:100px;
+    text-align:center;
+    
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+	}
+
+.job-1 li{
+	
+	width:25%;
+	float:left;
+	display:inline-block;
+	list-style-type:none;
+		
+	}
+.job-1 h1{
+	text-align:center;
+	margin:auto;
+	font-size:30px;
+	color:#2c3e50;
+	
+	}
+
+.job-1 li img{
+	display:block;
+	margin:10px auto;
+	width:100px;
+	}
+.job-text1{
+	color:#E87E04;
+	font-size:16px;
+	font-family:"SimHei";
+	text-align:center;
+	margin:20px auto;
+	}
+.job-text2{	
+	margin:auto;
+	width:300px;
+	font-family:"微软雅黑";
+	text-align:center;
+	}
+/*作品集*/
+.project-experience{
+	width:100%;
+	}
+.project-title{
+	margin:100px auto;
+	}
+.project-title h1{
+	text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2c3e50;
+    padding: 150px 0 0;
+    letter-spacing:2px;
+	}
+.project-title hr{
+	height: 4px;
+    width:70px;
+    text-align:center;
+    position: relative;
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+	}
+
+.project-title p{
+	text-align:center;
+	margin:60px auto;
+	font-family:"微软雅黑";
+	font-size:16px;
+	}
+.imgbox{
+	margin:auto 20px;
+	}
+.bigbox-1{
+	position:relative;
+	float:left;
+	width:25%;
+	}
+.bigbox-2{
+	position:relative;
+	float:left;
+	width:25%;
+	}
+.bigbox-3{
+	position:relative;
+	float:left;
+	width:25%;
+	}
+.bigbox-4{
+	position:relative;
+	display:inline-block;
+	width:25%;
+	}
+.zp-cover{
+	
+	position:absolute;
+	width:300px;
+	color:red;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	
+	display:none;
+    }
+
+.zp-cover h4{
+	
+	font-size:16px;
+	font-weight: 600;
+	text-align:center;
+	}
+.zp-cover p{
+	text-align:center;
+	font-size:14px;
+	margin:auto;
+	}
+.zp-cover img{
+	display:block;
+	margin:10px auto;
+	width:100px;
+	height:100px;
+	}
+/*技术掌握*/
+.master-technology{
+	position:relative;
+	margin-bottom:200px;
+	
+	}
+.tech-1{
+	width:100%;
+	
+	}
+.tech-my{
+	position:absolute;
+	top:50%;
+	clear:both;
+	width:100%;
+	color:#2c3e50;
+	}
+.tech-my hr{
+	height: 4px;
+    width:100px;
+    text-align: center;
+    position: relative;
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+	}
+.tech-my h1{
+	
+	text-align:center;
+	
+	
+	}
+
+.tech-1 img{
+	width:100%;
+	margin-top:200px;
+	}
+.tech-my ul{
+	list-style-type:none;
+	}
+.tech-my li{
+	width:25%;
+	float:left;
+	text-align:center;
+	}
+/*联系我*/
+.contact-way{
+	width:100%;
+	clear:both;
+	margin:200px auto;
+	}
+
+.call-me{	
+	text-align:center;
+		
+	}
+.call-me h1{
+	padding-top:200px;
+		
+	}
+.call-me hr{
+	height: 4px;
+    width:100px;
+    text-align: center;
+    position: relative;
+    background: #E87E04;
+    margin: 0 auto 80px;
+    border: 0;
+    transition: all 0.5s 0.2s;
+	}	
+.my-email{
+	text-align:center;
+	}
+.my-email p{
+	font-size:30px;
+	font-family:cursive,'Lato', sans-serif;
+	}
+	
+</style>
+</head>
+
+<body>
+<div class="resume">
+<!--导航条-->
+    <div id="nav-bar">
+        <div class="container">我的博客</div>
+        <ul class="navigation">
+                
+                <li><a href="#">联系我</a></li>
+                <li><a href="#">我的经历</a></li>
+                <li><a href="#">技术掌握</a></li>
+                <li><a href="#">作品集</a></li>
+                <li><a href="#">求职意向</a></li>
+                <li><a href="#">关于我</a></li>            
+       </ul>         
+    </div>
+    <!--简历封面-->
+    <div class="resume-title">
+        <div class="top">
+            <img src="images/c426013e4b67db58d07e1ab1e77b2efa.jpg"/>
+        </div>
+        <div class="myIntro">
+            <h1 class="name-1">Hello,I'm a sunny boy</h1>
+            <h3 class="name-2">一个对互联充满无限兴趣的前端工程师</h3>       
+            <div class="name-3">
+                
+                <span class="about-me">关于我</span>
+                  <span class="myworks">我的作品</span></p>
+            </div>
+        </div>
+    </div>
+    <!--自我介绍-->
+    <div class="job-intension">
+        <div class="myself-top">
+           <h1 class="myself">关于我</h1>
+           <hr/> 
+        </div> 
+        <div align="center">       
+             <img src="images/jianj.png" class="myphoto"/>
+        </div>
+         <p class="information">我叫乐坚坚，25岁，坐标武汉，是一名前端工程师。前端是一门有容乃大的行业，我并不是计算机专业出生。大学学的专业是船舶工程技术，毕业后在<a href="http://www.bestwaysh.com/">上海佳豪船舶设计股份有限公司</a>做2年半的船舶设计。在一个机缘巧合的时机我了解了前端这一行业，并深深被前端这门技术所吸引。在强大的兴趣催动下我开始自学前端技术。 今后的职业规划也是朝着Web前端方向发展，目前在学习jQuery框架。</p>
+         <p class="information">在武汉从事半年的前端开发工作，大的来说，写过响应式页面，移动端页面，pc端页面。小的来说，ps切图，各种网站页面模式都有涉及。 很感谢<a href="https://zrongsoft.cn.china.cn/">武汉智融科技有限公司</a>对我的培养，让我学到了很多东西。</p>   
+    </div>
+    <!--项目经验-->
+    <div class="project-experience">
+        <div class="project-title">
+             <h1>作品集</h1>
+             <hr/>
+             <p>写jq前端功能的时候，我的宗旨是能手写就手写，不依赖插件。手写代码更简洁高效，也更能提升自己技术。</p>
+        </div>   
+        <div class="bigbox-1">
+            <a href="https://www.baidu.com" target="_blank">
+                <div class="imgbox">
+                    <img src="images/01.jpg" alt="作品配图"/>
+                </div>
+           
+                <div class="zp-cover">
+                    <h4>商城类页面</h4>
+                    <p>知名电商商城页面模拟</p>
+                    <img src="images/search.png" alt="查看" />
+                </div>
+            </a> 
+        </div>
+   
+        <div class="bigbox-2"> 
+            <a href="https://www.baidu.com" target="_blank">
+                <div class="imgbox">
+                    <img src="images/02.jpg" alt="作品配图"/>
+                </div>
+           
+                <div class="zp-cover">
+                    <h4>官网类页面</h4>
+                    <p>多数据响应式页面，能兼容不同电脑大小的分辨率</p>
+                    <img src="images/search.png" alt="查看" />
+                </div>
+            </a>
+        </div>
+        <div class="bigbox-3">          
+            <a href="https://www.baidu.com" target="_blank">
+                <div class="imgbox">
+                    <img src="images/03.jpg" alt="作品配图"/>
+                </div>
+           
+                <div class="zp-cover">
+                    <h4>移动端页面</h4>
+                    <p>列表类，兼容安卓，ISO，平板</p>
+                    <img src="images/search.png" alt="查看" />
+                </div>
+            </a> 
+       </div>
+        <div class="bigbox-4">
+            <a href="https://www.baidu.com" target="_blank">
+                <div class="imgbox">
+                    <img src="images/04.jpg" alt="作品配图"/>
+                </div>
+           
+                <div class="zp-cover">
+                    <h4>我的技术博客</h4>
+                    <p>自己平时的知识点积累</p>
+                    <img src="images/search.png" alt="查看" />
+                </div>
+            </a>                        
+        </div>
+    
+    <!--技术掌握-->
+    <div class="master-technology">
+        
+        <div class="tech-1">
+            <img src="images/3930b514a12e8cff4435cadf4e0fe910.jpg" />
+        </div>
+        <div class="tech-my">
+            <h1>技术掌握</h1>
+            <hr/>
+            <ul>
+               <li>
+                   <h1>HTML5</h1>
+                   <P>掌握90%</P>
+               </li>
+                <li>
+                   <h1>CSS3</h1>
+                   <P>掌握90%</P>
+               </li>
+                <li>
+                   <h1>JS</h1>
+                   <P>掌握90%</P>
+               </li>
+                <li>
+                   <h1>JQ</h1>
+                   <P>掌握90%</P>
+               </li>
+            </ul>            
+        </div>
+        
+    </div>
+    
+</div>
+</body>
+</html>
